@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerCtrl: MonoBehaviour
 {
+    public CharacterController charCtrl;
     public int HP;
 
     //初始化
@@ -15,6 +16,7 @@ public class PlayerCtrl: MonoBehaviour
     //更新:偵測操作
     void Update()
     {
-        
+        //當(輸入按鍵w壓下)角色控制器.移動(往前)
+        if (Input.GetKey(KeyCode.W)) charCtrl.SimpleMove(Vector3.forward);
     }
 }
