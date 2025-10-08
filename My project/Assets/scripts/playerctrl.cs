@@ -2,15 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class player : MonoBehaviour
+public class PlayerCtrl: MonoBehaviour
 {
-    // Start is called before the first frame update
+    public int HP;
+
+    //初始化
     void Start()
     {
-        
+        HP = 100;
     }
 
-    // Update is called once per frame
+    //更新:偵測操作
     void Update()
     {
         
