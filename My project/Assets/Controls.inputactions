@@ -29,61 +29,6 @@
                 },
                 {
                     "name": "WASD",
-                    "id": "68b26399-f9a9-4731-accb-594a7ff935ad",
-                    "path": "2DVector",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "up",
-                    "id": "6fd10acc-f869-4f64-a1ea-263daf25529d",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "down",
-                    "id": "d5c2965c-2e8e-4380-81ea-d7725cc8efc6",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "left",
-                    "id": "af58dba4-6bf4-4b2e-bb3c-178f4088e7f3",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "right",
-                    "id": "5ac8e82d-2fc2-4c42-80df-e0167cf4f658",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "WASD",
                     "id": "01041b04-2b3f-4015-a67d-75d20513c38e",
                     "path": "2DVector",
                     "interactions": "",
@@ -151,7 +96,7 @@
                 {
                     "name": "up",
                     "id": "e2182d6c-298a-4151-88b0-4b65f03203cf",
-                    "path": "<Gamepad>/leftStick/up",
+                    "path": "<XInputController>/leftStick/up",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -162,7 +107,7 @@
                 {
                     "name": "down",
                     "id": "e5b19317-4c31-43a5-a858-cf7a8da1c00f",
-                    "path": "<Gamepad>/leftStick/down",
+                    "path": "<XInputController>/leftStick/down",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -173,7 +118,7 @@
                 {
                     "name": "left",
                     "id": "e08dc7fe-75c9-446b-a3e2-3139bc1454a8",
-                    "path": "<Gamepad>/leftStick/left",
+                    "path": "<XInputController>/leftStick/down",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -184,7 +129,7 @@
                 {
                     "name": "right",
                     "id": "1fe76b1e-9958-4744-84a7-1e08d8bdc74a",
-                    "path": "<Gamepad>/leftStick/right",
+                    "path": "<XInputController>/leftStick/right",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
