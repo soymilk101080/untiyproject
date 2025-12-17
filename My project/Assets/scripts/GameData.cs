@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameData
 {
-    public static int hp = 100;
+    public static int hp = 30;
     public static int hpMax = 100;
     public static float hpFillAmount
     {
