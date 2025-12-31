@@ -1082,6 +1082,7 @@ GameObject:
   m_Component:
   - component: {fileID: 54396081}
   - component: {fileID: 54396082}
+  - component: {fileID: 54396083}
   m_Layer: 5
   m_Name: KeyItems
   m_TagString: Untagged
@@ -1137,6 +1138,24 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &54396083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54396080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 378dbafc28b183a4fb66780c9d60e4f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keys:
+  - {fileID: 1793747258}
+  - {fileID: 1072123299}
+  - {fileID: 195027754}
+  got: {r: 1, g: 1, b: 1, a: 0}
+  none: {r: 0.24528301, g: 0.24528301, b: 0.24528301, a: 1}
 --- !u!1 &55525498
 GameObject:
   m_ObjectHideFlags: 0
@@ -3561,7 +3580,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 0.6509804}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.6509804}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -10275,6 +10294,23 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.000000029802322, y: 0.9206209, z: 0.07844584}
     m_Extent: {x: 0.117792696, y: 0.11594656, z: 0.16109587}
   m_DirtyAABB: 0
+--- !u!1 &672766303 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8033233377787466597, guid: fd7df93bfa8c5ae4cbd5c92f89264a47, type: 3}
+  m_PrefabInstance: {fileID: 1163238664}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &672766308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672766303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f2d3182a0659e04ba4e7ef111a803e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &679903082
 GameObject:
   m_ObjectHideFlags: 0
@@ -15818,7 +15854,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 0.6509804}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.6509804}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -17379,6 +17415,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8915991357974213389, guid: fd7df93bfa8c5ae4cbd5c92f89264a47, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7219296167402998239, guid: fd7df93bfa8c5ae4cbd5c92f89264a47, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -17436,13 +17476,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8033233377787466597, guid: fd7df93bfa8c5ae4cbd5c92f89264a47, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 8033233377787466597, guid: fd7df93bfa8c5ae4cbd5c92f89264a47, type: 3}
       propertyPath: m_Name
-      value: PP_Theme_09_Key_002
+      value: KEY
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8033233377787466597, guid: fd7df93bfa8c5ae4cbd5c92f89264a47, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 672766308}
   m_SourcePrefab: {fileID: 100100000, guid: fd7df93bfa8c5ae4cbd5c92f89264a47, type: 3}
 --- !u!1 &1166773218
 GameObject:
@@ -26521,7 +26568,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 0.6509804}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.6509804}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

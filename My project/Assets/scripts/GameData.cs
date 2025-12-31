@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -30,4 +31,10 @@ public class GameData
     /// 需要的鑰匙總數
     /// </summary>
     public static int keyMax = 3;
+
+    public static Action updateKey;
+    public static void AddKEY()
+    {
+        keyCount += 1;
+    }
 }
