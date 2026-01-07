@@ -10311,6 +10311,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f2d3182a0659e04ba4e7ef111a803e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &672766313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672766303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 378dbafc28b183a4fb66780c9d60e4f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keys: []
+  got: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0}
+  none: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &679903082
 GameObject:
   m_ObjectHideFlags: 0
@@ -17419,6 +17434,14 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -8915991357974213389, guid: fd7df93bfa8c5ae4cbd5c92f89264a47, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8915991357974213389, guid: fd7df93bfa8c5ae4cbd5c92f89264a47, type: 3}
+      propertyPath: m_IncludeLayers.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7219296167402998239, guid: fd7df93bfa8c5ae4cbd5c92f89264a47, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -17490,6 +17513,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8033233377787466597, guid: fd7df93bfa8c5ae4cbd5c92f89264a47, type: 3}
       insertIndex: -1
       addedObject: {fileID: 672766308}
+    - targetCorrespondingSourceObject: {fileID: 8033233377787466597, guid: fd7df93bfa8c5ae4cbd5c92f89264a47, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 672766313}
   m_SourcePrefab: {fileID: 100100000, guid: fd7df93bfa8c5ae4cbd5c92f89264a47, type: 3}
 --- !u!1 &1166773218
 GameObject:

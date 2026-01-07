@@ -13,16 +13,17 @@ public class UIKeyCountCtrl : MonoBehaviour
     void Start()
     {
         UpdateKeyUI();
+        ///功能託管
+        GameData.updateKey = UpdateKeyUI;  
     }
 
     public void UpdateKeyUI() 
     {
-    //起始；終點:增值
-    for (int i = 0;i < GameData.hpMax; i++)
-    {
-        if(i< GameData.keyCount) keys[i].color = got;
-        else keys[i].color = none;
+        //起始；終點:增值
+        for (int i = 0; i < GameData.hpMax; i++)
+        {
+            if (i < GameData.keyCount) keys[i].color = got;
+            else keys[i].color = none;
+        }
     }
-    }
-
 }

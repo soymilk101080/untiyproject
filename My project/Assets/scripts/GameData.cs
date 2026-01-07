@@ -33,8 +33,12 @@ public class GameData
     public static int keyMax = 3;
 
     public static Action updateKey;
-    public static void AddKEY()
+    /// <summary>
+    /// 鑰匙增加功能(同步更新UI)
+    /// </summary>
+    public static void AddKey() 
     {
         keyCount += 1;
+        updateKey();
     }
 }
